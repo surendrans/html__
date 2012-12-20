@@ -1,0 +1,140 @@
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+ <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+ <link href="css/bootstrap-responsive.min.css" media="all" rel="stylesheet" type="text/css" />
+ <link href="css/bjqs.css" media="all" rel="stylesheet" type="text/css" />
+     <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bjqs-1.3.js"></script>
+ 
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  
+<style>
+.main-container {
+padding-top:100px;
+
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+.main-container {
+
+width: 890px;
+}
+}
+.hero-unit {
+background-color:#E9CFEC;
+}
+
+body {
+background-image:url(stripe-black.png);
+
+}
+.hero-unit {
+padding: 31px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./heeders.html" style="color:#7AC142"><span style="color:#E9CFEC;font-size:30px">Hee</span><span style="font-size:30px">ders</span></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+             <li class="active">
+                <a href="./heeders.html">Home</a>
+              </li>
+              <li class="">
+                <a href="./about_us.html">About Us</a>
+              </li>
+              <li class="">
+                <a href="team.html">Team</a>
+              </li>
+              <li class="">
+                <a href="./base-css.html">Why to hire us</a>
+              </li>
+              <li class="">
+                <a href="./components.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	<div class="container main-container">
+<div class="hero-unit" style="color:white;text-align:center;">
+<img src="img/works-icon.png" style="margin:-28px;position:absolute;" />
+<h3>Projects</h3>
+</div>
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit" style="color:white;text-align:center;">
+<div id="banner-fade">
+
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li>
+		  <img src="http://blog.pointroll.com/wp-content/uploads/2012/10/MobileWeb.jpg" />
+		  <h1>HEEDERS1!</h1>
+        <p>Is Insight and listen to your words</p>
+        </li>
+          <li style="color:#ADD8E6">
+		  <img src="http://ui-cloud.com/res/Sunil%20Joshi/Mobile%20and%20Web%20UI%20Kit/previews/freebies-mobile-web-ui-fullpreview.png" />
+		  <h1>HEEDERS2!</h1>
+        <p>Is Insight and listen to your words</p>
+        </li>
+          <li style="color:#E9CFEC">
+		  <img src="http://www.askwebdesign.co.uk/wp-content/uploads/2012/11/AthleticXtreme_Responsive.jpg" />
+		  <h1>HEEDERS3!</h1>
+        <p>Is Insight and listen to your words</p>
+        </li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+
+      </div>
+      <!-- End outer wrapper -->
+	  
+      </div>
+	  <div class="bs-docs-example" style="text-align:center">
+            <h1><p>The following snippet of text is <em>rendered as italicized text</em>.</h1></p>
+          </div>
+	  </div>
+	
+	
+	
+
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+		  animtype : 'fade', // accepts 'fade' or 'slide'
+animduration : 10, // how fast the animation are
+animspeed : 4000, // the delay between each slide
+automatic : true, 
+            height      : 320,
+            width       : 820,
+            responsive  : true,
+			showcontrols : false,
+		
+			centercontrols : false,
+			showmarkers : true
+			
+          });
+
+        });
+      </script>
+
+	
+</body>
+
+</html>
